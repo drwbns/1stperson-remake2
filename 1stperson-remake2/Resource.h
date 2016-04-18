@@ -1,18 +1,18 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by 1stperson-remake2.rc
+// Used by 1stperson-remake.rc
 //
 
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
-#define IDD_MY1STPERSONREMAKE2_DIALOG	102
+#define IDD__DIALOG	102
 #define IDD_ABOUTBOX			103
 #define IDM_ABOUT				104
 #define IDM_EXIT				105
-#define IDI_MY1STPERSONREMAKE2			107
+#define IDI_			107
 #define IDI_SMALL				108
-#define IDC_MY1STPERSONREMAKE2			109
+#define IDC_			109
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1
