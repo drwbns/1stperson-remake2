@@ -1,5 +1,4 @@
-// fix : v0.1 stupid 0.0 .....
-//#include "main.h"
+#include "stdafx.h"
 #include "stdafx.h"
 #include <OgreException.h>
 #if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
