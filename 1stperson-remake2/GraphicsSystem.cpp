@@ -85,7 +85,7 @@ void GraphicsSystem::Initialize()
     else
 	{
 		//init core
-		RenderSystem* mRenderSys = mRoot->getRenderSystemByName("Direct3D9 Rendering Subsystem");
+		RenderSystem* mRenderSys = mRoot->getRenderSystemByName("Direct3D11 Rendering Subsystem");
 		mRenderSys->setConfigOption("Video Mode", "1024 x 768 @ 32-bit colour");
 		//mRenderSys->setConfigOption("Anti aliasing", "No");
 		mRenderSys->setConfigOption("VSync", "No");
