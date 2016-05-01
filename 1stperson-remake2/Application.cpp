@@ -36,6 +36,7 @@ THE SOFTWARE.
 //#include <GlobalVars.h>
 #include <OGRE/OgreFrameListener.h>
 #include "Application.h"
+#include "StateSystem.h"
 
 template<> Application* Ogre::Singleton<Application>::msSingleton = nullptr;
 
@@ -62,9 +63,9 @@ Application::Application() : GS(nullptr), IS(nullptr), SS(nullptr), GU(nullptr),
 void Application::Initialize()
 {
 	GS = new GraphicsSystem();
-/*	IS = new InputSystem();
+//	IS = new InputSystem(); 
 	SS = new StateSystem();
-	GU = new GuiSystem();
+/*	GU = new GuiSystem();
 	SN = new zzzSndSystem();
 	PM = new ProjectileManager();
 	PS = new PhysicsSystem();
@@ -81,7 +82,7 @@ void Application::Initialize()
 	//PAM->Initialize();//do it in states
 
 	//go
-//	SS->LoadState("game");*/
+	SS->LoadState("game");
 	GS->Start();
 }
 

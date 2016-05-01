@@ -26,8 +26,8 @@ THE SOFTWARE.
 #include "GraphicsSystem.h"
 #include "GlobalVars.h"
 #include <OgreTimer.h>
-/*#include "GuiSystem.h"
-#include "CamController.h"
+#include "GuiSystem.h"
+/*#include "CamController.h"
 #include "FreeCamController.h"
 #include "RtsCamController.h"
 #include "TpCamController.h"
@@ -66,10 +66,10 @@ GameState::~GameState()
 
 void GameState::Initialize()
 {
-/*	UISYS->InitDebuggers();
+	UISYS->InitDebuggers();
 	UISYS->SetCursor(false);
 	UISYS->SetCrossHair(false);
-
+/*
 	//add cam conrollers
 	ccam = 2;//current cam = tps
 
